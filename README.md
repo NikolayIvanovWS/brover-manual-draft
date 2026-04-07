@@ -1,41 +1,54 @@
-# Website
+# Установка и локальная разработка
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Документация для образовательного ровера BRover-E5, созданная с использованием Docusaurus.
 
-## Installation
+## Быстрый старт
 
-```bash
-yarn
-```
-
-## Local Development
+### 1. Клонирование репозитория
 
 ```bash
-yarn start
+git clone https://github.com/NikolayIvanovWS/brover-manual-draft.git
+cd brover-manual-draft
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-## Build
+### 2. Установка зависимостей
 
 ```bash
-yarn build
+npm install
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-## Deployment
-
-Using SSH:
+### 3. Запуск в режиме разработки
 
 ```bash
-USE_SSH=true yarn deploy
+npm run start
 ```
 
-Not using SSH:
+После запуска сайт будет доступен по адресу [http://localhost:3000](http://localhost:3000)
+
+### 4. Сборка production-версии
 
 ```bash
-GIT_USER=<Your GitHub username> yarn deploy
+npm run build
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+### 5. Очистка сборочной директории
+
+```bash
+npm run clear
+```
+
+## Структура проекта
+
+- `docs/` — директория с Markdown-файлами документации
+- `src/` — исходные коды React-компонентов
+- `static/` — статические файлы (изображения, CSS и т.д.)
+- `docusaurus.config.js` — основной конфигурационный файл
+
+## Полезные команды
+
+| Команда | Описание |
+|---------|----------|
+| `npm run start` | Запуск dev-сервера с hot-reload |
+| `npm run build` | Сборка статического сайта в папку `build` |
+| `npm run clear` | Очистка сборочной директории |
+| `npm run serve` | Локальный просмотр собранного сайта |
