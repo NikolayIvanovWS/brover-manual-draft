@@ -1,0 +1,9 @@
+{
+  "label": "Введение",
+  "position": 5,
+  "link": {
+    "slug": "device-operation",
+    "type": "generated-index",
+    "description": "Введение"
+  }
+}

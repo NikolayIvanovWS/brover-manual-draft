@@ -1,9 +1,10 @@
 {
   "label": "Введение",
   "position": 2,
+  "collapsed": false,
   "link": {
-    "slug": "1-introduction",
+    "slug": "introduction",
     "type": "generated-index",
-    "description": "Введение"
+    "description": "Введение в образовательный ровер BRover-E5"
   }
 }

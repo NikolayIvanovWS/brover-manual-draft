@@ -1,0 +1,10 @@
+{
+  "label": "Начало работы",
+  "position": 3,
+  "collapsed": false,
+  "link": {
+    "slug": "getting-started",
+    "type": "generated-index",
+    "description": "Раздел про то, как начать работу с устройством"
+  }
+}
