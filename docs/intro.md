@@ -1,47 +1,35 @@
 ---
+id: intro
+slug: /
+title: Общая информация
+sidebar_label: Общая информация
 sidebar_position: 1
 ---
+## Brover E5 — образовательный и исследовательский шестиколёсный ровер на базе ROS2 и модулях VBCore
 
-# Tutorial Intro
+<figure style={{textAlign: 'center'}}>
+   <img src={require("/img/rover/Rover-E5-base.png").default} alt="qj" width="800" />
+   <figcaption>
+    *Рис. 1. Ровер*
+  </figcaption>
+</figure>
 
-Let's discover **Docusaurus in less than 5 minutes**.
 
-## Getting Started
 
-Get started by **creating a new site**.
+**Brover E5** — это модульный шестиколёсный робот-ровер, разработанный на базе электроники [**VBCores**](https://vbcores.ru/) для образовательных и исследовательских задач в робототехнике. Платформа ориентирована на школьников и студентов, которым важно не просто управлять роботом, а глубоко понимать архитектуру современных роботизированных систем. Ровер построен на базе **Raspberry Pi 5**, использует **CAN-шину** для связи между узлами и полностью поддерживает **ROS2**, что делает его удобным инструментом для обучения и практической работы.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+**Brover E5** предназначен для изучения основ современной робототехники и ROS 2 на реальной мобильной платформе: работы с **Linux, ROS-узлами, топиками и сервисами, а также CAN-устройствами** и распределённой архитектурой управления. Робот подходит для учебных и исследовательских проектов, связанных с алгоритмами управления движением, навигацией и взаимодействием модулей. Управление ровером возможно как в ручном, так и в полуавтономном режиме, включая управление с джойстика с полностью программируемой логикой.
 
-### What you'll need
+**Архитектура Brover E5 построена по модульному принципу:** высокоуровневая логика, обработка пользовательских команд, работа с IMU и автономные режимы выполняются на Raspberry Pi 5, тогда как управление приводами и периферией вынесено на распределённые микроконтроллерные модули [**VBCore**](https://docs.vbcores.ru/docs/Hardware/vbcore). Ровер изначально спроектирован как платформа-носитель, позволяющая подключать дополнительное навесное оборудование и пользовательские модули, которые могут обмениваться данными по CAN и быть полностью интегрированы в экосистему ROS 2.
 
-- [Node.js](https://nodejs.org/en/download/) version 20.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+Для начинающих пользователей ROS мы рекомендуем ознакомиться с нашим вводным курсом
+[Введение в ROS](https://learn.voltbro.ru/free/ros2-base/) или с курсом в официальной [документации по ROS2](https://docs.ros.org/en/jazzy/ )
 
-## Generate a new site
+Образовательный ровер **Brover E5** разработан и поддерживается проектом **«Братья Вольт»**:
 
-Generate a new Docusaurus site using the **classic template**.
 
-The classic template will automatically be added to your project after you run the command:
+🌐 **Сайт проекта**: [https://www.voltbro.ru/](https://www.voltbro.ru/) 
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+▶️ **Телеграм-канал проекта "Братья Вольт"**: [https://t.me/Voltbro_official](https://t.me/Voltbro_official) 
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+👥 **Группа в ВКонтакте**: [https://vk.com/voltbro](https://vk.com/voltbro)

@@ -10,8 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'BRover',
-  favicon: 'img/favicon.ico',
+  title: 'Инструкция к BRover-E5',
+  favicon: 'img/brover-ico.svg',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
