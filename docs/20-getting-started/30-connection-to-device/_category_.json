@@ -1,0 +1,10 @@
+{
+  "label": "Подключение к роверу",
+  "position": 4,
+  "collapsed": true,
+  "link": {
+    "slug": "connection-to-device",
+    "type": "generated-index",
+    "description": "Раздел про виды подключение к роверу"
+  }
+}

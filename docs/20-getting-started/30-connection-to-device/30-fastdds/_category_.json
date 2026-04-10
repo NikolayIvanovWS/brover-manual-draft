@@ -1,0 +1,10 @@
+{
+  "label": "FastDDS",
+  "position": 4,
+  "collapsed": true,
+  "link": {
+    "slug": "fastdds",
+    "type": "generated-index",
+    "description": "Раздел про виды подключение с использованием FastDDS"
+  }
+}
