@@ -7,8 +7,8 @@
 ### 1. Клонирование репозитория
 
 ```bash
-git clone https://github.com/NikolayIvanovWS/brover-manual-draft.git
-cd brover-manual-draft
+git clone https://github.com/voltbro/brover-manual.git
+cd brover-manual
 ```
 
 ### 2. Установка зависимостей
