@@ -1,6 +1,7 @@
 {
   "label": "Работа с устройством",
   "position": 5,
+  "collapsed": true,
   "link": {
     "slug": "device-operation",
     "type": "generated-index",

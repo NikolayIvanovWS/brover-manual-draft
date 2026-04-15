@@ -18,7 +18,7 @@ description: "Комплектация поставки образователь
 | Наименование | Изображение |
 |--------------|------------|
 | Мобильная 6-ти колесная платформа (шасси rocker-bogie) | <figure style={{textAlign: 'center'}}><img src={require("./img/Rover-E5-only-base.png").default} alt="qj" width="200" /></figure> |
-| Управляющий микрокомпьютер [Raspberry Pi 5 (4 ГБ)]((https://www.raspberrypi.com/products/raspberry-pi-5/)) | <figure style={{textAlign: 'center'}}><img src={require("./img/raspberry-pi5.png").default} alt="qj" width="200" /></figure> |
+| Управляющий микрокомпьютер [Raspberry Pi 5 (4 ГБ)](https://www.raspberrypi.com/products/raspberry-pi-5/) | <figure style={{textAlign: 'center'}}><img src={require("./img/raspberry-pi5.png").default} alt="qj" width="200" /></figure> |
 | 2-х канальный адаптер CAN FD для Raspberry Pi <br /> [VBCores CAN-FD HAT](https://vbcores.ru/products/can-hat) | <figure style={{textAlign: 'center'}}><img src={require("./img/vb-canfd-rpi-hat-v1_0-1.jpg").default} alt="qj" width="200" /></figure> |
 | [Коммутационная плата питания и CAN](https://docs.vbcores.ru/docs/Hardware/ch-quick-connect) | <figure style={{textAlign: 'center'}}><img src={require("./img/vb-canhat-qc-v1_0-2.jpg").default} alt="qj" width="200" /></figure> |
 | Модули управления двигателями [DC Driver 15A (6 шт.)](https://vbcores.ru/products/dc-driver) | <figure style={{textAlign: 'center'}}><img src={require("./img/vb-dc-driver-v1_3-3.jpg").default} alt="qj" width="200" /></figure> |

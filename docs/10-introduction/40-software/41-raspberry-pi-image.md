@@ -17,7 +17,7 @@ description: "Описание используемого образа для Ra
 
 Актуальную версию образа можно скачать по ссылке:  
 
-[****Образы rover-e****]([https://disk.360.yandex.ru/d/XdNcAYlAGHu0yg](https://disk.360.yandex.ru/d/XdNcAYlAGHu0yg))
+[**Образы rover-e**](https://disk.360.yandex.ru/d/XdNcAYlAGHu0yg)
 
 :::
 
