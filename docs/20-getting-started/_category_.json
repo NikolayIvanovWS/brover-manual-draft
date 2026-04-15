@@ -1,7 +1,7 @@
 {
   "label": "Начало работы",
   "position": 3,
-  "collapsed": false,
+  "collapsed": true,
   "link": {
     "slug": "getting-started",
     "type": "generated-index",

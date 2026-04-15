@@ -105,18 +105,18 @@ const config = {
             ],
           },
           {
-            title: 'Больше',
+            title: 'GitHub Repo',
             items: [
               {
-                label: 'GitHub VBCores',
+                label: 'VBCores',
                 href: 'https://github.com/VBCores/',
               },
               {
-                label: 'GitHub brover ROS2-package',
+                label: 'brover ROS2-package',
                 href: 'https://github.com/voltbro/brover/',
               },
                             {
-                label: 'GitHub brover-web ROS2-package',
+                label: 'brover-web ROS2-package',
                 href: 'https://github.com/voltbro/brover_web/',
               },
             ],

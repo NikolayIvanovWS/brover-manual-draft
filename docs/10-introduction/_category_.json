@@ -1,7 +1,7 @@
 {
   "label": "Введение",
   "position": 2,
-  "collapsed": false,
+  "collapsed": true,
   "link": {
     "slug": "introduction",
     "type": "generated-index",

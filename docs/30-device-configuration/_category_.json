@@ -1,6 +1,7 @@
 {
   "label": "Настройка устройства",
   "position": 4,
+  "collapsed": true,
   "link": {
     "slug": "device-configuration",
     "type": "generated-index",
