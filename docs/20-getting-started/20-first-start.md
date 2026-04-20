@@ -48,8 +48,6 @@ description: "Подготовка и первое включение BRover-E5"
 | Ровер включен | <span style={{ backgroundColor: '#0040ff', color: 'white', padding: '2px 20px', borderRadius: '12px', fontWeight: 'semi-bold' }}> Синий цвет </span> | <span style={{ backgroundColor: '#2bff00', color: 'black', padding: '2px 20px', borderRadius: '12px', fontWeight: 'semi-bold' }}> Зеленый цвет </span> |
 :::
 
-Если этого не произошло, вероятно ровер не смог подключиться к Wi-Fi сети.
-
 ## Проверка работоспособности
 
 После включения рекомендуется убедиться, что основные функции работают корректно.

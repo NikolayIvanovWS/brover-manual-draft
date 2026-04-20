@@ -23,7 +23,7 @@ description: "Комплектация поставки образователь
 | [Коммутационная плата питания и CAN](https://docs.vbcores.ru/docs/Hardware/ch-quick-connect) | <figure style={{textAlign: 'center'}}><img src={require("./img/vb-canhat-qc-v1_0-2.jpg").default} alt="qj" width="200" /></figure> |
 | Модули управления двигателями [DC Driver 15A (6 шт.)](https://vbcores.ru/products/dc-driver) | <figure style={{textAlign: 'center'}}><img src={require("./img/vb-dc-driver-v1_3-3.jpg").default} alt="qj" width="200" /></figure> |
 | Модуль управления питанием [PowerBoard 30A](https://vbcores.ru/products/powerboard) | <figure style={{textAlign: 'center'}}><img src={require("./img/vb-powerboard-v1_2-1.jpg").default} alt="qj" width="200" /></figure> |
-| Инерциальный модуль [IMU VB BHI360](https://vbcores.ru/products/imu-bhi360) | <figure style={{textAlign: 'center'}}><img src={require("./img/vb-imu-bhi360-1.jpg").default} alt="qj" width="200" /></figure> |
+| Инерциальный датчик [IMU VB BHI360](https://vbcores.ru/products/imu-bhi360) | <figure style={{textAlign: 'center'}}><img src={require("./img/vb-imu-bhi360-1.jpg").default} alt="qj" width="200" /></figure> |
 | microSD карта 16 ГБ с ПО | <figure style={{textAlign: 'center'}}><img src={require("./img/microSD.png").default} alt="qj" width="200" /></figure> |
 | USB-камера | <figure style={{textAlign: 'center'}}><img src={require("./img/camera.jpg").default} alt="qj" width="200" /></figure> |
 | Колёса (6 шт.) | <figure style={{textAlign: 'center'}}><img src={require("./img/wheele.png").default} alt="qj" width="200" /></figure> |
