@@ -51,13 +51,31 @@ description: "Перепрошивка microSD-карты и установка 
 
 1. Скачайте и установите [`Raspberry Pi Imager`](https://www.raspberrypi.com/software/)
 2. Запустите программу
-3. Нажмите **Choose OS**
-4. Выберите пункт **Use custom image**
-5. Укажите скачанный образ
-6. Нажмите **Choose Storage** и выберите microSD-карту
-7. Нажмите **Write**
+3. Выберите устройство - **Raspberry Pi 5**
 
-Дождитесь завершения записи и извлеките карту.
+<figure style={{textAlign: 'center'}}><img src={require("./img/rpimager-1.png").default} alt="qj" width="500" /></figure>
+
+4. Пролистните вниз и выберите пункт **Использовать настраиваемый образ**
+
+<figure style={{textAlign: 'center'}}><img src={require("./img/rpimager-2.png").default} alt="qj" width="500" /></figure>
+
+5. Укажите скачанный образ
+
+<figure style={{textAlign: 'center'}}><img src={require("./img/rpimager-3.png").default} alt="qj" width="500" /></figure>
+
+6. Выберите подключунную microSD-карту
+
+<figure style={{textAlign: 'center'}}><img src={require("./img/rpimager-4.png").default} alt="qj" width="500" /></figure>
+
+7. Нажмите **Запись**
+
+<figure style={{textAlign: 'center'}}><img src={require("./img/rpimager-5.png").default} alt="qj" width="500" /></figure>
+
+8. Согласитесь с полной очистой содержимого на microSD-карте
+
+<figure style={{textAlign: 'center'}}><img src={require("./img/rpimager-6.png").default} alt="qj" width="500" /></figure>
+
+Во время записи игнорируйте все высплывающие окна связанные с форматированим разделов и т.д. Дождитесь завершения записи и извлеките карту.
 
 ---
 
@@ -70,8 +88,18 @@ description: "Перепрошивка microSD-карты и установка 
 1. Скачайте и установите [`balenaEtcher`](https://github.com/balena-io/etcher/releases)
 2. Запустите программу
 3. Нажмите **Flash from file** и выберите скачанный образ
+
+<figure style={{textAlign: 'center'}}><img src={require("./img/balena-1.png").default} alt="qj" width="500" /></figure>
+<figure style={{textAlign: 'center'}}><img src={require("./img/balena-2.png").default} alt="qj" width="500" /></figure>
+
 4. Нажмите **Select target** и выберите microSD-карту
+
+<figure style={{textAlign: 'center'}}><img src={require("./img/balena-3.png").default} alt="qj" width="500" /></figure>
+<figure style={{textAlign: 'center'}}><img src={require("./img/balena-4.png").default} alt="qj" width="500" /></figure>
+
 5. Нажмите **Flash**
+
+<figure style={{textAlign: 'center'}}><img src={require("./img/balena-5.png").default} alt="qj" width="500" /></figure>
 
 После завершения дождитесь окончания проверки записи и извлеките карту.
 
